@@ -27,7 +27,7 @@ Data columns (total 11 columns):
 
 ## Como foi feito ?
 Os dados foram pré-processados somente para que fossem tratados os valores missing, no caso, os valores NaN foram substituídos pela moda nas colunas `Saving accounts` e `Checking account`.
-O único parâmetro definido, foi o número de tentativas, o qual foi de 100.
+O único parâmetro definido, foi o número máximo de tentativas, o qual foi de 100.
 
 ## O que foi obtido ?
 O melhor modelo obtido dentre as 100 tentativas, foi uma rede neural do tipo Multilayer Perceptron (Deep Learning), a qual possui 3 camadas ocultas e 2518 parâmetros, podendo esta ser considerada uma rede relativamente pequena. 
@@ -63,3 +63,7 @@ Non-trainable params: 21
 ```
 O modelo obteve uma acurácia de 72% em treino  e 73% em teste, um resultado satisfatório visto o baixo tempo de treinamento do modelo (menos de 20 min em uma máquina sem GPU).
 Para mais detalhes, consulte o notebook.
+
+
+## Contato
+Pedro G Dubiela (pedrodubielabio@gmail.com)
